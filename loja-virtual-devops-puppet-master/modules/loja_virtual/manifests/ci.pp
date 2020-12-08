@@ -47,7 +47,7 @@ class loja_virtual::ci {
     '/var/lib/jenkins/jobs',
     '/var/lib/jenkins/jobs/loja-virtual-devops'
   ]
-  $git_repository = 'https://github.com/dtsato/loja-virtual-devops.git'
+  $git_repository = 'https://github.com/annaravaglio/lab_eng_loja_devops/tree/master/loja-virtual-devops-master'
   $git_poll_interval = '* * * * *'
   $maven_goal = 'install'
   $archive_artifacts = 'combined/target/*.war'

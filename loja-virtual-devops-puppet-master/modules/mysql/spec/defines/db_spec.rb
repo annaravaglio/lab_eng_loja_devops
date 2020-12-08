@@ -8,9 +8,9 @@ describe 'mysql::db' do
 
     let(:params) {
       {
-        :user => "user",
-        :schema => "schema",
-        :password => "secret"
+        :user => "labdev",
+        :schema => "lojavirtual",
+        :password => "123456"
       }
     }
 
